@@ -1,14 +1,10 @@
-resource "aws_s3_bucket" "My-Bucket" {
-  bucket = "my-tf-test-bucket"
+
+
+resource "aws_s3_bucket" "My-lilya1234567" {
+  bucket = "my-lilya-12345679"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "my-lilya-12345678910"
     Environment = "Dev"
   }
-}
-
-resource "aws_s3_bucket_acl" "example" {
-  bucket = aws_s3_bucket.My-Bucket.id
-  acl    = "private"
-  
 }
