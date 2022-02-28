@@ -1,0 +1,1 @@
+# my-first-own-aws-project
